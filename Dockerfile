@@ -11,8 +11,8 @@ ENV HADOOP_VERSION=$version \
     PATH=$PATH:/opt/hadoop/bin \
     MULTIHOMED_NETWORK=1 \
     CLUSTER_NAME=hadoop \
-    HDFS_CONF_dfs_namenode_name_dir=file:///dfs/name \
-    HDFS_CONF_dfs_datanode_data_dir=file:///dfs/data \
+    HDFS_CONF_dfs_namenode_name_dir=file:///hadoop/dfs/name \
+    HDFS_CONF_dfs_datanode_data_dir=file:///hadoop/dfs/data \
     USER=hdfs
 
 
